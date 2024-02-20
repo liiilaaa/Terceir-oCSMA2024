@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+
+.cabeca{
+    background-color:red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.marginn{
+    margin-right: 45vw;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+
+button{
+    background-color: red;
+    padding-top: 4vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-radius: 40vh;
+    box-shadow: 8px 0px 8px 0px;
+    margin-top: 60vh;
+    margin-left: 43vw;
+    font-size: 20px;
+    
+}
+
+.tacano{
+    margin-left: 37vw;
+    margin-bottom: -75vh;
+}
+
+.nos{
+   width: 30vw;
+}
+
+.tudo{
+    text-align: center;
+
+}
+
+@media (max-width: 700px){
+    .tacano{
+        margin-left: 39vw;
+        margin-bottom: -67vh;
+        width: 50vw;
+    }
+
+    .cabeca{
+        background-color:red;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .marginn{
+        font-weight: bolder;
+        font-size: 20px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    
+    }
+
+    .t{
+        width: 20vw;
+    }
+}
